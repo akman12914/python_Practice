@@ -1,0 +1,11 @@
+# print 함수 결과 예측
+print("%d / %d = %d" % (10, 4, 10 / 4))
+print("%d / %d = %f" % (10, 4, 10 / 4))
+print("%d / %d = %5.1f" % (10, 4, 10 / 4))
+print("%d / %d = %5.0f" % (10, 4, 10 / 4))
+print("%05d" % 543)
+print("%10s" % "파이썬")
+print("%1.2f" % 123.455)
+print()
+print(int('1008', 8))
+print(int('AAFG', 16))
